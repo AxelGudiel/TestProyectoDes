@@ -1,46 +1,73 @@
 *{
-    margin:10px;
-    padding:10px;
+    margin:0px;
+    padding:0px;
     box-sizing: border-box;
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Suez One', serif;
 }
 
+a{
+    text-decoration: none;
+}
 .padre{
     display: flex;
     flex-flow: column nowrap;
 
 }
 .header{
-    background: #000;
+    background: url(principal.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
     display: flex;
     flex-flow: column nowrap;
 
 }
     .menu{
-        background: #1D5B79;
+        background: rgba(73, 70, 70, 0.452);
         display: flex;
         flex-flow: row nowrap;
         height: 100px;
         align-items: center;
     }
-        .logo{
-            background: #468B97;
+        .logo{     
             flex:1 1 auto;
-            height: 30px;
+            text-align: center;
         }
+
         .nav{
-            background: #468B97;
             flex:5 1 auto;
-            height: 30px;
+            text-align: center;
         }
+            .nav a{
+                color:#fff;
+                font-size: 13px;
+                text-transform: uppercase;
+                padding: 0 10px;
+                letter-spacing: 4px;
+            }
+
+            .nav a:hover{
+                color:#7518ccd5;
+                text-shadow: 0px 0px 15px rgb(63, 60, 228);
+            }
+
         .social{
-            background: #468B97;
             flex:1 1 auto;
-            height: 30px;
+            display: flex;
         }
+            .social a{
+                font-size: 18px;
+                padding: 0 15px;
+            }
+            .social a:hover{
+                color:#7518ccd5;
+                text-shadow: 2px 2px 20px rgb(63, 60, 228);
+            }
+
+
     .texto-principal{
         background: #EF6262;
     }
