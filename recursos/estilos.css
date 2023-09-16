@@ -1,6 +1,6 @@
 *{
     margin:0px;
-    padding:0px;
+    padding: 10px;
     box-sizing: border-box;
 }
 
@@ -29,8 +29,9 @@ a{
         background: rgba(73, 70, 70, 0.452);
         display: flex;
         flex-flow: row nowrap;
-        height: 100px;
+        height: 60px;
         align-items: center;
+        border-bottom: 1px solid rgba(255,255,255,.5);
     }
         .logo{     
             flex:1 1 auto;
